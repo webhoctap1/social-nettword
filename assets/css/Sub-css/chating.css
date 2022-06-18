@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-weight: normal;
+    font-family: inherit;
+}
+
+html,body{
+    font-family: inherit;
+}
+
+#M3Jusg2 {
+	background-color: #ff4000;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    height: 40px;
+	box-shadow: 0 0 10px #ccc;
+	border-bottom: 0px solid #000;
+	width: 100%;
+}
+
+#M3Jusg2 .M4hayTrK {
+	display: flex;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+#M3Jusg2 .YudL90a .Lo78JJu4e .LoHuHy2{
+	display: inline-block;
+}
+#M3Jusg2 .YudL90a .Lo78JJu4e .LoHuHy2 .Misha87mj img{
+    width: 6vh;
+    margin-left: 12px;
+    margin-top: 0px;
+    position: fixed;
+}
+
+#M3Jusg2 .Hud80Tr .Loss76Ae .subJuka76 .Nav56juJJ .erHya7h ul li{
+	display: inline-block;
+	line-height: 47px;
+	padding: 0 20px;
+	text-align: center;
+} 
+
+#M3Jusg2 .Hud80Tr .Loss76Ae .subJuka76 .Nav56juJJ .erHya7h ul li a{
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+    margin-right: 5px;
+    display: flex;
+    margin-top: -2px;
+    transform: translateX(67vh);
+}
+
+/* #M3Jusg2 .Hud80Tr .Loss76Ae .subJuka76 .Nav56juJJ .erHya7h ul li:hover a{
+	color: #fff;
+	transition: 0.3s;
+	cursor: none !important;
+} */
+
+#M3Jusg2 .Bhs499hd .sub1hNav .superNov82 .k09ah11 .Ntav7E{
+	display: inline-flex;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    width: 30px;
+	margin-top: -7px;
+}
+
+/* loader */
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#FFF; /* change if the mask should have another color then white */
+    z-index:99999; /* makes sure it stays on top */
+	overflow-y: hidden;
+}
+#status {
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("/TwitterClone/assets/images/twitter-logo.png");
+    z-index:9999; /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin:-50px 0 0 -50px; /* is width and height divided by two */
+}
+/* Responsive */
+@media only screen and (min-width: 600px){
+	#M3Jusg2  {
+		width: 100%;
+	}
+	#M3Jusg2 .Hud80Tr .Loss76Ae .subJuka76 .Nav56juJJ .erHya7h ul li a{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	#M3Jusg2  {
+		background-color: orangered;
+	}
+	#M3Jusg2 .Hud80Tr .Loss76Ae .subJuka76 .Nav56juJJ .erHya7h ul li {
+		display: none;
+	}
+}
+

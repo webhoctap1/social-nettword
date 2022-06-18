@@ -1,0 +1,11 @@
+:root {
+	--color-twitter-light-blue: rgb(234, 245, 252);  
+	--color-twitter-blue:       rgb(72,  161, 235);
+	--color-twitter-bg:         rgb(231, 236, 239);
+	--color-twitter-light-gray: rgb(245, 248, 250);
+	--color-twitter-mid-gray:   rgb(206, 214, 220);  
+	--color-twitter-dark-gray:  rgb(102, 117, 130);  
+	--color-font-main:          rgb(0, 0, 0);
+	--color-font-secondary:     #14171a;
+	--color-nav-border:         rgba(0, 0, 0, 0.25);
+  }

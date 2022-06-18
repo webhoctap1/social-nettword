@@ -1,0 +1,285 @@
+*{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+::-webkit-scrollbar{
+	background-color: #fff;
+}
+*,*:after,*:before{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+html{
+	padding: 0; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+.twt-main{
+	height: 100%;
+	width: 100%;
+}
+.twt-login{
+	display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1fr;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+	background-color: white;
+	float: right;
+}
+
+.twitterIcon-bird{
+	position: absolute;
+	width: 1200px;
+	top: -145px;
+	left: 15px;
+    overflow: hidden;
+}
+.login-box{
+	margin-left: 60px;
+	margin-top: 31px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr auto;
+	font-size: 14px;
+	line-height: 20px;
+	width: 210px;
+	height: 46px;
+	grid-column-gap: 10px;
+}
+.input-box{
+	border: 1px solid #e6ecf0;
+	border-radius: 3px;
+	box-sizing: border-box;
+	padding: 15px;
+    width: 210px;
+}
+.input-box:focus {
+	outline: none;
+}
+::placeholder{
+	font-size: 14px;
+	line-height: 20px;
+}
+.login-btn{
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+    width: 14vh;
+    cursor: pointer;
+    height: 39px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	margin-bottom: 5px;
+
+}
+.login-btn:hover {
+	color: #fff;
+	background-color: rgba(255, 68, 0, 0.798);
+    transition: 0.5s ease-in-out;
+	font-weight: 800;
+	letter-spacing: 2;
+}
+
+.login-link{
+	grid-area: 2/2/3/3;
+	color: #aab8c2;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.slow-login{
+	justify-self: center;
+	width: 355px;
+	height: 100px;
+	color: #14171a;
+	font-weight: 700;
+}
+.ImgHy61{
+	width: 26vh;
+    margin-left: -97vh;
+    display: block;
+    margin-top: -17vh;
+}
+.login-small-display{
+	display:none; 
+}
+.front-para{
+	font-size: 27px;
+	line-height: 32px;
+	display: block;
+	margin-bottom: 50px;
+}
+.join{
+	font-size: 18px;
+	line-height: 24px
+}
+.signup-btn{
+	margin-top: 15px;
+	background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+	color: #fff;
+}
+.signup-btn:hover{
+	color: #fff;
+	background-color: orangered;
+	letter-spacing: 3;
+	border: none;
+	height: 4.5vh;
+    transition: ease 0.5s;
+}
+
+.signin-btn{
+	background-color: #fff;
+    border: 1px solid #1da1f2;
+	color: #1da1f2;
+}
+
+.pri-btn{
+	border-radius: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+	margin-bottom: 16px;
+	width: 350px;
+}
+.twt-features{
+	background-color: #20bf55;
+    background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 100vh;
+	float: left;
+}
+.features-div{
+	margin:auto;
+	width: 370px;
+	margin-top: 230px;
+}
+.twt-icon{
+	position: relative;
+	float: left;
+	width: 35px;
+	margin-right: 20px;
+}
+.twt-features p{
+	position: relative;
+	top: 5px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #fff;
+	padding-bottom: 30px;
+}
+html{
+	/* height: 5000px; */
+}
+footer{
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #e6ecf0;
+    background-color: #fff;
+}
+ul{
+	background: #fff;
+	color: #aab8c2;
+	margin-top: -15px;
+}
+li{
+    display: inline-block;
+	padding-left: 4vh; 
+	font-size: 13px;
+}
+
+footer a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.error-li {
+	margin:25px 0px;
+}
+::selection{
+	color: #fff;
+	background-color: orangered;
+}
+.span-fp-error{
+	overflow: hidden;
+	padding: 5px;
+	border: 1px dashed #d89797;
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #a75858;
+}
+.Cborerha5{
+   border-bottom: 1px solid rgb(201, 201, 201);
+}
+@media (max-width:800px){
+
+	.twt-main{
+		display: grid;
+		min-height: 600px;
+	}
+	.twt-features{
+		width: auto;
+		height: 40vh;
+		background-size: 180%
+	}
+	.features-div{
+		margin-top: 50px;
+	}
+	.twt-login{
+		width: auto;
+		height: 60vh;
+	}
+	/* .twt-login form{
+		display: none;
+	} */
+	footer ul{
+		display: none;
+		text-align: center;
+	}
+	.ImgHy61{
+		display: inline-block;
+	}
+
+	.login-box {
+		margin-left: 0;
+		grid-template-rows: 1fr 1fr;
+	    grid-template-columns: 1fr 1fr;
+	}
+	.login-btn {
+		border-radius: 100px;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 20px;
+		padding: 6px 16px;
+		margin-bottom: 16px;
+		margin-top: 10px;
+		width:200px;
+	
+	}
+
+}
+
+.con {
+	width: 200%;
+	text-align: center;
+}
+button:focus {
+    outline: none !important;
+}
